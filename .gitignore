@@ -1,0 +1,21 @@
+# Ignorar archivos de respaldo y temporales
+*~
+*.swp
+*.bak
+
+# Ignorar archivos de registro
+error_log
+php_errors.log
+
+# Ignorar la carpeta de node_modules
+node_modules/
+
+# Ignorar archivos generados por el sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de caché
+.cache/
+
+# Ignorar archivos de configuración
+*.config
