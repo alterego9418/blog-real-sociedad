@@ -10,7 +10,7 @@ body{
 }
 
 .container {
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
     overflow: hidden;
     border: 1px solid #646464;
@@ -23,7 +23,7 @@ body{
 
 #cabecera {
     color: #ffffff;
-    background-color: #0934aa;
+    background-color: #888a8f;
     height: 20px;
     padding: 4px;
     font-style: italic;
