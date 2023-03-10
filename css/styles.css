@@ -10,7 +10,7 @@ body{
 }
 
 .container {
-    width: 100%;
+    width: 60%;
     margin: 0 auto;
     overflow: hidden;
     border: 1px solid #646464;
