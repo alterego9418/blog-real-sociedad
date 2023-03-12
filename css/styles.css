@@ -40,8 +40,7 @@ body{
 }
 
 #cabecera img {
-    width: 20px;
-    height: 20px;
+    height: 90%;
     margin-right: 10px;
     order: -1;
 }
