@@ -11,6 +11,44 @@ body{
     text-align: center;
 }
 
+header {
+    background-color: rgb(8, 22, 151);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #ffffff;
+    color: rgb(8, 22, 151);
+  }
+  
+
 .container {
     width: 60%;
     margin: 0 auto;
