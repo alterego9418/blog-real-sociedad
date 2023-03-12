@@ -1,5 +1,7 @@
+
+
 body{
-    background-color: bisque;
+    background-color: rgb(56, 56, 56);
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -8,6 +10,45 @@ body{
     padding: 0; 
     text-align: center;
 }
+
+header {
+    background-color: rgb(8, 22, 151);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #ffffff;
+    color: rgb(8, 22, 151);
+  }
+  
 
 .container {
     width: 60%;
@@ -18,12 +59,13 @@ body{
     padding: 20px;
     margin-top: 24px;
     box-shadow: 10px 13px 29px 3px rgba(102, 100, 100, 0.75);
+    background-color: bisque;
 }
 
 
 #cabecera {
     color: #ffffff;
-    background-color: goldenrod;
+    background-color: rgb(8, 22, 151);
     height: 20px;
     padding: 4px;
     font-style: italic;
@@ -33,7 +75,13 @@ body{
     border-radius: 5px;
     display: flex;
     align-items: center;
+    flex-direction: row;
 }
+
+nav img {
+    height: 40px;
+    margin-right: 10px;
+  }
 
 #cabecera h5 {
     font-size: 20px;
@@ -41,6 +89,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 
 p {
     text-align: left;
@@ -52,7 +101,7 @@ footer {
     color: #333333;
     padding: 20px;
     margin-top: 24px;
-    border-radius: 5px;
+    border-radius: 0px;
     text-align: center;
     font-family: Arial, sans-serif;
     font-size: 14px;
