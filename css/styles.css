@@ -97,8 +97,8 @@ p {
 }
 
 footer {
-    background-color: #f5f5f5;
-    color: #333333;
+    background-color: rgb(8, 22, 151);
+    color: #fff;
     padding: 20px;
     margin-top: 24px;
     border-radius: 0px;
